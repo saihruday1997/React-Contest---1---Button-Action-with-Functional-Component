@@ -1,8 +1,8 @@
 import React, { Component, useState } from "react";
 import "./../styles/App.css";
 
-function text(text) {
+function Text(text) {
   return <p>{text}</p>;
 }
 
-export default text;
+export default Text;
