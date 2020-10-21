@@ -8,8 +8,8 @@ function App() {
   const textData =
     "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
 
-  const clickFn = (text) => {
-    setText(text);
+  const clickFn = (textData) => {
+    setText(textData);
   };
 
   return (
